@@ -1,6 +1,8 @@
-package example.com
+package com.gorka
 
-import example.com.plugins.*
+import com.gorka.plugins.configureRouting
+import com.gorka.plugins.configureSerialization
+import com.gorka.plugins.*
 import io.ktor.server.application.*
 
 fun main(args: Array<String>) {
@@ -9,4 +11,7 @@ fun main(args: Array<String>) {
 
 fun Application.module() {
     configureRouting()
+    configureSerialization()
 }
+
+
