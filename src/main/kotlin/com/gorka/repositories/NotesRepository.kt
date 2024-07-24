@@ -1,8 +1,6 @@
 package com.gorka.repositories
 
 import com.gorka.models.Note
-import com.gorka.models.Note.*
-import com.gorka.models.Note.Type.*
 
 object NotesRepository {
 
